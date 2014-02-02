@@ -4,11 +4,17 @@ class Mission
 	addOns[]=
 	{
 		"a3_map_stratis",
-		"A3_Characters_F_BLUFOR"
+		"A3_Characters_F_BLUFOR",
+		"A3_Soft_F_MRAP_01",
+		"A3_Soft_F_MRAP_02",
+		"a3_soft_f_gamma_offroad"
 	};
 	addOnsAuto[]=
 	{
 		"A3_Characters_F_BLUFOR",
+		"A3_Soft_F_MRAP_01",
+		"A3_Soft_F_MRAP_02",
+		"a3_soft_f_gamma_offroad",
 		"a3_map_stratis"
 	};
 	randomSeed=2074240;
@@ -41,7 +47,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={1858.1705,5.5508528,5771.8311};
+					position[]={1885.6057,5.5167885,5809.2847};
 					id=0;
 					side="WEST";
 					vehicle="B_Soldier_F";
@@ -50,6 +56,34 @@ class Mission
 					skill=0.60000002;
 				};
 			};
+		};
+	};
+	class Vehicles
+	{
+		items=3;
+		class Item0
+		{
+			position[]={1865.1112,5.5,5825.5591};
+			id=1;
+			side="EMPTY";
+			vehicle="B_MRAP_01_hmg_F";
+			skill=0.60000002;
+		};
+		class Item1
+		{
+			position[]={1876.0547,5.5,5822.7842};
+			id=2;
+			side="EMPTY";
+			vehicle="O_MRAP_02_hmg_F";
+			skill=0.60000002;
+		};
+		class Item2
+		{
+			position[]={1887.9226,5.5,5823.0928};
+			id=3;
+			side="EMPTY";
+			vehicle="B_G_Offroad_01_armed_F";
+			skill=0.60000002;
 		};
 	};
 };
