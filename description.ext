@@ -1,0 +1,61 @@
+onLoadName = "Arma3 Lib";
+onLoadMission = "Librarie for Scripting";
+onLoadMissionTime = true;
+author = "MirageCentury";
+
+onLoadIntro = "onLoadIntro";
+onLoadIntroTime = true;
+
+joinUnassigned = true;
+allowFunctionsLog = true;
+enableDebugConsole = 0;
+//loadScreen = "";
+
+respawn = BASE;
+respawnDelay = 10;
+respawnDialog = false;
+
+disableAI = true;
+aiKills = false;
+
+class Header
+{
+	gameType = Sandbox;
+	minPlayers = 1;
+	maxPlayers = 100;
+};
+
+class Params
+{
+
+};
+
+class CfgNotifications
+{
+
+};
+
+class CfgSounds
+{
+
+};
+
+class CfgRadio
+{
+
+};
+
+class CfgMusic
+{
+	
+};
+
+class CfgIdentities
+{
+
+};
+
+class CfgFunctions
+{
+	#include "a3lib\CfgFunctions.hpp"
+};
