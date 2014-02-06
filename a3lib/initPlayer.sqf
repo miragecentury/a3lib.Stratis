@@ -5,4 +5,4 @@ if(a3lib_vehicle_SysTurretWeaponMagazineLoadUnload_active)then{
 };
 
 //wait 
-waitUntil{scriptDone _a3lib_hdl_vehicle_SysTurretWeaponMagazineLoadUnload;}:
+waitUntil{scriptDone _a3lib_hdl_vehicle_SysTurretWeaponMagazineLoadUnload};

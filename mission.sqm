@@ -84,6 +84,7 @@ class Mission
 			side="EMPTY";
 			vehicle="B_G_Offroad_01_armed_F";
 			skill=0.60000002;
+			text="test_vh";
 		};
 	};
 };
